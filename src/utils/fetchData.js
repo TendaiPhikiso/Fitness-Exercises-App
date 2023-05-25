@@ -13,7 +13,5 @@ export const fetchData = async (url,options ) => {
     const response = await fetch(url, options);
     const data = await response.json();
 
-    console.log('key', process.env.REACT_APP_API_KEY)
-
     return data;
 };
