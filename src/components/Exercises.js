@@ -20,6 +20,27 @@ function Exercises({exercises, setExercises, bodyPart}) {
 
 
   }
+
+  //code used when the categories are clicked the workouts change according to the selection
+  useEffect(() => {
+    const fetchExercisesData = async () => {
+      let exercisesData = [];
+
+      if (bodyPart === 'all') {
+        exercisesData = await fetchData('https://exercisedb.p.rapidapi.com/exercises', exerciseOptions);
+      } else {
+        exercisesData = await fetchData(`https://exercisedb.p.rapidapi.com/exercises/bodyPart/${bodyPart}`, exerciseOptions);
+      }
+
+      setExercises(exercisesData);
+    };
+
+    fetchExercisesData();
+  }, [bodyPart,setExercises]);
+
+
+
+
  
   
 
