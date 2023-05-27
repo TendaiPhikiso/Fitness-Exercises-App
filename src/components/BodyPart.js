@@ -11,13 +11,13 @@ function BodyPart({item, setBodyPart, bodyPart}) {
         className="bodyPart-card"
         
         sx={{
-            borderTop: bodyPart === item ? '4px solid #000000' : '',
-            backgroundColor: '#fff',
-            // borderBottomLeftRadius: '20px',
-            width: '270px',
-            height: '280px',
-            cursor: 'pointer',
-            gap: '47px'
+          borderTop: bodyPart === item ? '4px solid #000000' : '',
+          backgroundColor: '#fff',
+          borderBottomLeftRadius: '20px',
+          width: '270px',
+          height: '280px',
+          cursor: 'pointer',
+          gap: '47px'
         
         }}
 
@@ -27,10 +27,6 @@ function BodyPart({item, setBodyPart, bodyPart}) {
 
 
         }}
-
-    
-
-
     
     >
         <img src={Icon} alt='dumbell' style={{ width: '40px', height: '40px'}}/>

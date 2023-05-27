@@ -10,11 +10,11 @@
     "axios": "^1.4.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-horizontal-scrolling-menu": "^4.0.4",
+    "react-horizontal-scrolling-menu": "^2.7.1",
     "react-loader-spinner": "^5.3.4",
     "react-router-dom": "^6.11.2",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "react-scroll-menu": "^0.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +39,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.3"
   }
 }
