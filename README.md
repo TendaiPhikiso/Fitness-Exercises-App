@@ -2,6 +2,9 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+<div align="center">
+   
+  <img src="https://github.com/TendaiPhikiso/Fitness-Exercises-App/blob/main/fitness.png"/></div>
 ## Available Scripts
 
 In the project directory, you can run:
