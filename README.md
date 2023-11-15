@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+💗 View Fitness Application [CLICK ME ](https://tp-fitness-app.netlify.app/).
 
 <div align="center">
    
